@@ -29,5 +29,6 @@ from .french import French
 from .english import English
 from .spanish import Spanish
 from .portuguese import Portuguese
+from .catalan import Catalan
 
-LANG = {"fr": French(), "en": English(), "es": Spanish(), "pt": Portuguese()}
+LANG = {"fr": French(), "en": English(), "es": Spanish(), "pt": Portuguese(), "ca": Catalan()}
